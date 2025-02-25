@@ -32,7 +32,6 @@ coverage.xml
 htmlcov/
 
 # Pre-commit hooks cache
-.pre-commit-config.yaml
 .pre-commit/
 
 # Jupyter Notebook checkpoints
