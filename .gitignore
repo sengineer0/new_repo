@@ -1,0 +1,65 @@
+# Bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# System-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+desktop.ini  # Windows
+
+# IDE-specific files
+.idea/          # JetBrains (PyCharm)
+.vscode/        # VS Code settings
+*.swp           # Vim swap files
+
+# Logs & Caches
+*.log
+*.cache
+*.pytest_cache/
+
+# Testing & Coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Pre-commit hooks cache
+.pre-commit-config.yaml
+.pre-commit/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pipenv & Poetry
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# MyPy type checking
+.mypy_cache/
+
+# Pyright (TypeScript-like type checker for Python)
+.pyright/
+
+# Ruff Linter Cache
+.ruff_cache/
+
+# Docker & CI/CD
+docker-compose.override.yml
+.envrc
+.idea
